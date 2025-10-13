@@ -1,5 +1,5 @@
 import { CloseRounded, GitHub, LinkedIn } from "@mui/icons-material";
-import { Modal } from "@mui/material";
+import Modal from "@mui/material/Modal";
 import React from "react";
 
 import {

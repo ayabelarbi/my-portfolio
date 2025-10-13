@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react"
 
 import { ThemeProvider } from "styled-components";
 import styled from "styled-components";
@@ -47,6 +48,7 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router>
+        <Analytics />
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
         <Body>
           <HeroSection />
