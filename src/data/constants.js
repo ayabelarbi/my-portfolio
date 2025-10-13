@@ -1,3 +1,11 @@
+import logoBlack from "../assets/logo-black.png";
+import logoWhite from "../assets/logo-white.png";
+import theme from "../themes/default";
+
+function getLogo(theme) {
+  return theme === "dark" ? logoWhite : logoBlack;
+}
+
 export const Bio = {
   name: "Aya B.",
   roles: [
@@ -162,13 +170,33 @@ export const skills = [
   },
 ];
 
+const indexXP = 6;
 export const experiences = [
   {
-    id: 0,
+    id: indexXP,
+    img: "https://vechain.org/wp-content/uploads/2023/09/01-LogoVerticale_VShape_Colori_RGB-1.png",
+    role: "Full-stack blockchain engineer",
+    company: "VeChain",
+    date: "September 2024 - September 2025",
+  desc: ["Working across smart contracts, frontend applications, and developer tooling within the VeChain ecosystem. Building upgradeable contracts, integrating authentication frameworks, and delivering scalable dApps."],
+    skills: [
+      "DAOs",
+      "Smart Contracts",
+      "Frontend Development",
+      "Developer Tooling",
+      "Upgradeable Contracts",
+      "Authentication Frameworks",
+      "Scalable dApps",
+      "Blockchain",
+      "Smart Contracts",
+    ],
+  },
+  {
+    id: indexXP + 1,
     img: "https://images.mirror-media.xyz/publication-images/avONu0b7FO0sj8jcs7xzM.png?height=4283&width=4283",
     role: "Full-stack engineer",
     company: "DUSA Labs",
-    date: "September 2023 - Present",
+    date: "September 2023 - September 2024",
   desc: [
       "Integrating front-end and enhancing user interaction. Participating in and architecting internal projects to enhance user incentives. Creating content on social media and on the protocol documentation. Integrating Dusa on Defi Llama.",
     ],   
@@ -181,8 +209,8 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
-    img: "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmTZnxkNE5uCXc3nMMUp8exb6EZnsoPwnw9XaF1GgmyCFR",
+    id: indexXP + 2,
+    img: logoBlack,
     role: "Full-stack blockchain engineer",
     company: "Freelancing",
     date: "July 2021 - Present",
@@ -201,11 +229,11 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: indexXP + 3,
     img: "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmeTZshxrdR2p5znL1J4rFkHVeQA4u8Bn1ZZzRpmoJDHKz",
     role: "Lead of H.E.R DAO France",
     company: "H.E.R DAO",
-    date: "October 2022 - Present",
+    date: "October 2022 - December 2024",
     desc: "Curated and delivered comprehensive workshops on blockchain technologies, including Algorand and Python, to boost proficiency and adoption. Fostered a community of women through top-tier blockchain events and hackathons. Established a scholarship program to encourage women's participation in these activities.",
     skills: [
       "Developer Relations",
@@ -224,7 +252,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: indexXP + 4,
     img: "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmPvFeAKQXDSYQxqmwsrtFnGjpLRVE3vxjy96UPut4prok",
     role: "Vice President of Kryptosphere at Sorbonne University  ",
     company: "KRYPTOSPHERE",
@@ -233,7 +261,7 @@ export const experiences = [
     doc: "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmdGoZsx6JQ2MKs7RqU3Kwx5BYNPJaPqQyveBb9vS1KTns",
   },
   {
-    id: 3,
+  id: indexXP + 5,
     img: "https://yt3.googleusercontent.com/E3udg1lM1O8d-n1XXl0kNW47PIO-PKUL7yYHnDFQhd4ol2HDWkD40_iXIXOfiQRgC-4mal3NNrg=s160-c-k-c0x00ffffff-no-rj",
     role: "Solidity Educator",
     company: "Leadership and Community Engagement",
