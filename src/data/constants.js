@@ -18,7 +18,7 @@ export const Bio = {
     "I'm a self-learner, passionate and curious to dig deeper and expand my knowledge. With a positive attitude and a growth mindset, I am ready to make meaningful contributions and achieve great things.",
   github: "https://github.com/ayabelarbi",
   resume:
-    "https://drive.google.com/file/d/11YmBjZf3b_WZLMege7bzyqtwRwbPXGYa/view?usp=sharing",
+    "https://drive.google.com/file/d/109etQsnslsvfjRL8hH6WCgcvD05bsQLR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/aya-belarbi/",
   twitter: "https://twitter.com/0xaya_",
 };
@@ -117,7 +117,7 @@ export const skills = [
       },
       {
         name: "Foundry",
-        image: "https://getfoundry.sh/logo.png",
+        image: "https://github.com/foundry-rs/.github/raw/main/profile/logo.png",
       },
       {
         name: "Hardhat",
@@ -174,7 +174,7 @@ const indexXP = 6;
 export const experiences = [
   {
     id: indexXP,
-    img: "https://vechain.org/wp-content/uploads/2023/09/01-LogoVerticale_VShape_Colori_RGB-1.png",
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQF_k9Ra2xTnvw/company-logo_200_200/B4DZp34DiHGgAI-/0/1762947775025/vechain_foundation_logo?e=1765411200&v=beta&t=29tzhRmJqFKnJGxFKe5nxKbsUZ9DUee1iqvXXml9xrM",
     role: "Full-stack blockchain engineer",
     company: "VeChain",
     date: "September 2024 - September 2025",
@@ -262,7 +262,7 @@ export const experiences = [
   },
   {
   id: indexXP + 5,
-    img: "https://yt3.googleusercontent.com/E3udg1lM1O8d-n1XXl0kNW47PIO-PKUL7yYHnDFQhd4ol2HDWkD40_iXIXOfiQRgC-4mal3NNrg=s160-c-k-c0x00ffffff-no-rj",
+    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAllBMVEVHcEzP4eG91dW81dXP4eHB2NjF2trR4uLb6enK3t6fw8Oyzs7K3t7A2Ni+1tasy8vB2NicwMDL3t6uzMzZ5+epyMi10dHW5eXA2Ni81dXX5uaixcXL39+jxcXJ3d2yzs7U4+Pe6uqKtbWBsLDF2tqqycnM39+hxMS30dHT4+Oxzs6lxsa91dWewsLa6OiXvb2KtbXj7u7MUayGAAAAJHRSTlMAg64VOuqTIgZ2YutgLEilnjxO/dV99fO928eV8NLI1Pa2u0m8CNBQAAABJUlEQVQokZWS13LCMBBF17ZkI9u4YDokpKg34P9/LiKTYdzywH1QO7M7u3cF8IISgCr/hy228bKR2fT9d228p/5jwgrBtoc42il695PQUjNpKQ+RlC4meSv8gMrfVT1XDcFcKeX9cb5aFB0V55zMwjb/ziIr7ZQktXDX2y3PMKvGLBdCOLPfdvlKn0bsFJhoEtjLDs5fQ1YbY9gKIKNWwvptwDaMdR0KhzWlY7hkTMoQB5+hkRh2cR9emJNp2I/BBZpkPOqxKiQ1dZkGWzlFEFHUg7FgGmumpbX7MJHduZ/1IEyHMtKk5DGsSPXtW2An9PPWKjxo5N2J4sksXQ5gKZ35e9loOTY2lc61wfqNYAWCsUqsr7erMwWZfpEgRNKUoFn0un4AWG8b9JKZLPwAAAAASUVORK5CYII=",
     role: "Solidity Educator",
     company: "Leadership and Community Engagement",
     date: "July 2022 - August 2022",
